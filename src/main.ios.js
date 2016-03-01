@@ -4,6 +4,9 @@
  */
 import {AppRegistry} from 'react-native';
 import App from './components/App';
+import stream from 'getstream';
+
+stream.connect('', '');
 
 class Root extends App {
   static defaultProps = {
